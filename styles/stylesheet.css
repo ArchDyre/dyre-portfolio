@@ -1,0 +1,62 @@
+html{
+    
+    min-height: calc(100vh);
+    
+}
+
+body{    
+    overflow: auto;
+    height: calc(100vh - 88px);
+    max-width: 100vw !important;
+}
+
+.sm_profile_img{
+    
+    width: 150px;
+    height: 150px;
+    
+}
+
+.icons{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+
+.mini_icons{
+    
+    width: 15px;
+    height: 15px;
+    
+}
+
+.text_violet{
+    
+    color: #9966cc;
+    
+}
+
+.bg_violet{
+    
+    background-color: #9966cc;
+    border-color: #9966cc;
+    
+}
+
+
+.bg_violet:hover{
+    
+    background-color: #663399;
+    border-color: #663399;
+    
+}
+
+.row{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+
