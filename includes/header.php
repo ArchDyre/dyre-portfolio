@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <?php
 
 // Security Headers
@@ -19,6 +20,10 @@ header("X-Content-Type-Options: nosniff");
 
 // Strict transport security
 header("Strict-Transport-Security: max-age=31536000");
+
+// Includes
+include_once("includes/functions.php");
+
 
 ?>
 

@@ -1,13 +1,38 @@
 html{
     
-    min-height: calc(100vh);
+    background-image: url('../images/pat-3.png') !important; 
+    min-height: 100%;
     
 }
 
 body{    
+    
     overflow: auto;
-    height: calc(100vh - 88px);
+    height: 100%;
     max-width: 100vw !important;
+    
+    background-color: transparent; 
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    
+    body{
+        
+        height: calc(100vh - 62px);
+        
+    }
+    
+}
+
+.bg_overlay_colour{
+    
+    background-color: rgba(0,0,0,0.08);
+    height: 100%;
+    
 }
 
 .sm_profile_img{
@@ -59,4 +84,8 @@ body{
     
 }
 
-
+.thick_bottom_bar{
+    
+    border-width: thick !important;
+    
+}
