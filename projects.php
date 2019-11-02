@@ -14,18 +14,15 @@
     <?php include "includes/nav.php"; ?>
     
 
-     <div class="container-fluid bg_image mx-0 px-0 py-5 h-100">
+     <div class="container-fluid bg_image mx-0 px-0 py-5">
         
         <div class="row h-100">
             
-            <div class="col-0 col-md-2"></div> <!-- /.col -->
+            <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
             
             
-            <div class="col-12 col-md bg-light p-0 p-md-0 mb-md-0">
+            <div class="col-12 col-md bg-light p-0 p-md-0 mb-md-0 rounded">
                
-               
-                   
-                   
                    <?php
                             
                     if(isset($_GET['project'])){
@@ -63,7 +60,7 @@
             </div> <!-- /.col -->
             
             
-            <div class="col-0 col-md-2"></div> <!-- /.col -->
+            <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
             
         </div>
         

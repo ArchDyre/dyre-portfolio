@@ -21,14 +21,14 @@
             <div class="col-0 col-md-2"></div> <!-- /.col -->
             
             
-            <div class="col-12 col-md bg-light p-0 p-md-0">
+            <div class="col-12 col-md bg-light p-0 p-md-0 rounded">
                
                <!-- overlay -->
                <div class="container-fluid p-0 m-0 bg_overlay_colour">
                    
                    <div class="row h-100">
 
-                        <div class="col-0 col-md-2"></div> <!-- /.col -->
+                        <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
 
                         <div class="col-12 col-md my-auto py-3">
                             
@@ -75,7 +75,7 @@
 
                         </div> <!-- /.col -->
 
-                        <div class="col-0 col-md-2"></div> <!-- /.col -->
+                        <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
 
 
                     </div> <!-- /.row -->

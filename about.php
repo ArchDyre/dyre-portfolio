@@ -21,7 +21,7 @@
             <div class="col-0 col-md-2"></div> <!-- /.col -->
             
             
-            <div class="col-12 col-md bg-light p-0">
+            <div class="col-12 col-md bg-light p-0 rounded">
                
                <!-- overlay -->
                <div class="m-0 p-0 bg_overlay_colour py-2">
@@ -49,7 +49,7 @@
 
                         <div class="row">
 
-                           <div class="col-0 col-md-2"></div> <!-- /.col -->
+                           <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
 
                             <div class="col-12 col-md">
 
@@ -62,7 +62,7 @@
                             </div> 
                             <!-- /.col -->
 
-                            <div class="col-0 col-md-2"></div> <!-- /.col -->
+                            <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
 
                         </div><!-- /.row -->
                         <!-- /. ABOUT - Content -->
@@ -94,7 +94,7 @@
 
                     <div class="row">
 
-                        <div class="col-0 col-md-3"></div> <!-- /.col -->
+                        <div class="col-0 col-md-1 col-lg-3"></div> <!-- /.col -->
 
                         <div class="col-12 col-md mb-4">
 
@@ -113,7 +113,7 @@
 
                         </div> <!-- /.col -->
 
-                        <div class="col-0 col-md-3"></div> <!-- /.col -->
+                        <div class="col-0 col-md-1 col-lg-3"></div> <!-- /.col -->
 
                     </div><!-- /.row -->
                     <!-- /. SKILLS - Content -->
@@ -125,7 +125,7 @@
                 <div class="container-fluid px-0 mx-0">
                     <div class="row my-4 py-4">
 
-                        <div class="col-0 col-md-2"></div> <!-- /.col -->
+                        <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
 
                         <div class="col-12 col-md py-4 my-0">
 
@@ -210,7 +210,7 @@
 
                         </div> <!-- /.col -->
 
-                        <div class="col-0 col-md-2"></div> <!-- /.col -->
+                        <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
 
                     </div><!-- /.row -->
                     <!-- /.jumbotron - `other skills` -->

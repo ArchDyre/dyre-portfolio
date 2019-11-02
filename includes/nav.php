@@ -11,20 +11,20 @@
                     </button>
                     <!-- /.navbar-toggler -->
 
-                    <div class="collapse navbar-collapse pl-md-5 pr-md-0 m-md-0" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse pl-lg-5 pr-md-0 m-md-0" id="navbarNavAltMarkup">
 
-                        <div class="navbar-nav p-3 p-md-auto">
-                            <a class="nav-item nav-link active font-weight-bold" href="index.php">Home <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link font-weight-bold" href="about.php">About</a>
-                            <a class="nav-item nav-link font-weight-bold " href="resume.php">Resume</a>
-                            <a class="nav-item nav-link font-weight-bold" href="projects.php">Projects</a>
-                            <a class="nav-item nav-link font-weight-bold" href="contact.php">Contact</a>
+                        <div class="navbar-nav p-3 p-md-auto" id="toggle_navbar">
+                            <a class="nav-item nav-link" href="index.php">Home</a>
+                            <a class="nav-item nav-link" href="about.php">About</a>
+                            <a class="nav-item nav-link" href="resume.php">Resume</a>
+                            <a class="nav-item nav-link" href="projects.php">Projects</a>
+                            <a class="nav-item nav-link" href="contact.php">Contact</a>
                         </div>
-
+                        
                     </div>
                     <!-- /.collapse -->
                     
-                    <div class="pr-md-5 mx-auto pb-3 pb-md-0 m-md-0">
+                    <div class="col-12">
                         <a href="https://github.com/ArchDyre"><img class="icons" src="images/icons/iconmonstr-github-1-64.png"></a>
                         <a href="https://www.facebook.com/rohandyre/timeline"><img class="icons" src="images/icons/iconmonstr-facebook-4-64.png"></a>
                         <a href="https://www.linkedin.com/in/rohan-bezuidenhout-a47a92151/"><img class="icons" src="images/icons/iconmonstr-linkedin-4-64.png"></a>

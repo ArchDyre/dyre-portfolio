@@ -67,8 +67,16 @@ include_once("includes/functions.php");
     
     
     <!-- Change the title of the website -->
-    <title><?php $page_Title = "Home"; echo $page_Title; ?></title>
-    
+    <title>
+    <?php
+
+    $titles = new Titles();
+
+    $titles -> pageTitle();
+
+    ?>
+    </title>
+    <!-- /.title -->
     
   </head> <!-- END OF: <head> -->
   
