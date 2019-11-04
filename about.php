@@ -53,11 +53,18 @@
 
                             <div class="col-12 col-md">
 
-                                <p class="text-center">
+                                <p class="text-center text-md-left text-lg-left">
 
-                                    Sollicitudin lorem erat varius proin scelerisque orci proin congue scelerisque phasellus adipiscing suspendisse accumsan dolor tristique tristique quam quisque eget purus euismod felis proin phasellus.
-
+                                    Through vigorous studying of website development courses on Udemy, he can successfully hold his own in both front end and his favoured back end development. Committed to continuously improve his knowledge of Best Practices, Object Oriented Programing, Cyber Security and Advanced Solutions.
                                 </p>
+                                <!-- /.p -->
+                                
+                                <p class="text-center text-md-left text-lg-left">
+                                    
+                                    With proven experience in developing custom consumer-focused web sites using HTML, CSS, JavaScript,  JQuery, MySQL and PHP7, he is up to any challenge.
+                                    
+                                </p>
+                                <!-- /.p -->
 
                             </div> 
                             <!-- /.col -->
@@ -71,8 +78,8 @@
                 <!-- /.container-fluid ABOUT -->
 
 
-                <div class="container-fluid px-0 pt-md-5">
-                    <div class="row pt-5 pb-4">
+                <div class="container-fluid px-0 pt-md-2">
+                    <div class="row pt-3 pb-4">
 
                         <div class="col text-center">
 
@@ -99,7 +106,11 @@
                         <div class="col-12 col-md mb-4">
 
                             <?php
-
+                            
+                            // You can enter custom colours.
+                            // Format -> "#235487"
+                            // $titleColour == Html, Css, JQuery => Titles area
+                            // $valueColour == Progress Bar showing percentage area
                             $titleColour = "";
                             $valueColour = "";
 
@@ -123,7 +134,7 @@
 
 
                 <div class="container-fluid px-0 mx-0">
-                    <div class="row my-4 py-4">
+                    <div class="row my-3 py-4">
 
                         <div class="col-0 col-md-1 col-lg-2"></div> <!-- /.col -->
 

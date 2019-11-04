@@ -11,7 +11,7 @@
                     </button>
                     <!-- /.navbar-toggler -->
 
-                    <div class="collapse navbar-collapse pl-lg-5 pr-md-0 m-md-0" id="navbarNavAltMarkup">
+                    <div class="col-lg-5 collapse navbar-collapse pl-lg-5 pr-md-0 m-md-0" id="navbarNavAltMarkup">
 
                         <div class="navbar-nav p-3 p-md-auto" id="toggle_navbar">
                             <a class="nav-item nav-link" href="index.php">Home</a>

@@ -49,7 +49,7 @@
                             </div>
                             <!-- /.row -->
 
-                            <p class="my-md-4">Sollicitudin ipsum adipiscing phasellus tristique placerat nunc orci quam felis rutrum sem phasellus facilisis urna tincidunt adipiscing varius facilisis magna proin adipiscing fusce lorem sed.</p>
+                            <p class="my-md-4">A customer centric and solution-driven website developer focused on finding solutions to challenges and maintaining high customer satisfaction.  A developer who responds to challenges by developing solutions and web applications aligned to customer specifications, web standards, best practices and with the intent of exceeding expectations.</p>
 
                         </div>
 

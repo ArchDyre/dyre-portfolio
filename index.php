@@ -66,9 +66,9 @@
                             <!-- /.row -->
                             
 
-                                <div class="container">
+                                <div class="container text-center">
 
-                                    <p>Orci urna facilisis leo molestie suspendisse phasellus bibendum morbi erat tincidunt consectetur tincidunt et cursus eget enim vivamus molestie ac accumsan gravida commodo commodo eu.</p>
+                                    <p class="h5">A customer centric and solution-driven website developer focused on finding solutions to challenges and maintaining high customer satisfaction.</p>
 
                                 </div>
                                 <!-- /.container -->
