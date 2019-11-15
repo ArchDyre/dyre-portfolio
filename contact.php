@@ -14,14 +14,14 @@
     <?php include "includes/nav.php"; ?>
     
     
-    <div class="container-fluid bg_image mx-0 px-0 py-5 h-100">
+    <div class="container-fluid bg_image h-100">
         
-        <div class="row h-100">
+        <div class="row h-100 my-auto">
             
             <div class="col-0 col-md-2"></div> <!-- /.col -->
             
             
-            <div class="col-12 col-md bg-light p-0 p-md-0 rounded">
+            <div class="col-12 col-md bg-light px-0 py-auto my-auto p-md-0 rounded">
                
                <!-- overlay -->
                <div class="container-fluid p-0 m-0 bg_overlay_colour">

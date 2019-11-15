@@ -2,45 +2,57 @@
 <?php
 
 // Security Headers
-
-// External iframes not allowed??
-header("X-Frame-Options: sameorigin"); 
-
-//set headers to NOT cache a page
-header("Cache-Control: no-cache, must-revalidate"); //HTTP 1.1
-header("Pragma: no-cache"); //HTTP 1.0
-header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
-
-// X-XSS-Protection enables
-header("X-XSS-Protection: 1; mode=block");
-
-// x-content-type
-// Potentially prevents bootstrap from loading
-header("X-Content-Type-Options: nosniff");
-
-// Strict transport security
-header("Strict-Transport-Security: max-age=31536000");
+// checks if headers have been sent.
+// IF === False
+// -> Sends headers
+if(!headers_sent()){
+    
+    // External iframes not allowed??
+    header("X-Frame-Options: sameorigin"); 
+    //set headers to NOT cache a page
+    header("Cache-Control: no-cache, must-revalidate"); //HTTP 1.1
+    header("Pragma: no-cache"); //HTTP 1.0
+    header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+    // X-XSS-Protection enables
+    header("X-XSS-Protection: 1; mode=block");
+    // x-content-type
+    // Potentially prevents bootstrap from loading
+    header("X-Content-Type-Options: nosniff");
+    // Strict transport security
+    header("Strict-Transport-Security: max-age=31536000");
+    
+}
 
 // Includes
 include_once("includes/functions.php");
 
 
 ?>
-
 <!doctype html>
 <html lang="en"> <!-- START OF: <html> -->
   <head> <!-- START OF: <head> -->
+    <!-- Declare description of website -->
+    <meta name="description" content="Rohan Dyre's personal portfolio showcasing his">
+    <!-- Declare author of website. -->
+    <meta name="author" content="Rohan Dyre">
+    <!-- Declare keywords relating to SEO of website content -->
+    <meta name="keywords" content="portfolio, php developer, coding, website developer">
+    <!-- Required meta tags -->
+    <!-- Defines the character encoding used -->
+    <meta charset="utf-8">
+    <!-- Ensure resizing based on device -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
     
     <!-- CSS Links -->
-    
-        <!-- Link to css normalising sheet. -->
-        <link rel="stylesheet" type="text/css" href="styles/normalise.css">
-        
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
-        <!-- Link to css sheet -->
-        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+       
+    <!-- Link to css normalising sheet. -->
+    <link rel="stylesheet" type="text/css" href="styles/normalise.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Link to css sheet -->
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
     
     
     <!-- IE 8 and below compatibility with HTML5 -->
@@ -52,17 +64,7 @@ include_once("includes/functions.php");
     
     <!-- Declare <meta> variables -->
     
-        <!-- Declare description of website -->
-        <meta name="description" content="Rohan Dyre's personal portfolio showcasing his">
-        <!-- Declare author of website. -->
-        <meta name="author" content="Rohan Dyre">
-        <!-- Declare keywords relating to SEO of website content -->
-        <meta name="keywords" content="portfolio, php developer, coding, website developer">
-        <!-- Required meta tags -->
-        <!-- Defines the character encoding used -->
-        <meta charset="utf-8">
-        <!-- Ensure resizing based on device -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
     
     
     

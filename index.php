@@ -14,14 +14,14 @@
     <?php include "includes/nav.php"; ?>
     
 
-    <div class="container-fluid bg_image mx-0 px-0 py-5 h-100">
+    <div class="container-fluid bg_image h-100">
         
-        <div class="row h-100">
+        <div class="row h-100 my-auto py-3">
             
             <div class="col-0 col-md-2"></div> <!-- /.col -->
             
             
-            <div class="col-12 col-md bg-light p-0 p-md-0 rounded">
+            <div class="col-12 col-md bg-light px-0 py-auto my-auto p-md-0 rounded">
                
                <!-- overlay -->
                <div class="container-fluid p-0 m-0 bg_overlay_colour">
@@ -42,7 +42,7 @@
                             </div>
                             <!-- /.row -->
                             
-                            <div class="row text-center py-2 py-md-4 my-2">
+                            <div class="row text-center py-2 py-md-4">
                                 
                                 <!-- Name + Occupation Details -->
                                 <div class="col-12 my-auto">
@@ -68,7 +68,7 @@
 
                                 <div class="container text-center">
 
-                                    <p class="h5">A customer centric and solution-driven website developer focused on finding solutions to challenges and maintaining high customer satisfaction.</p>
+                                    <h5>A customer centric and solution-driven website developer focused on finding solutions to challenges and maintaining high customer satisfaction.</h5>
 
                                 </div>
                                 <!-- /.container -->

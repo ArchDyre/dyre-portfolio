@@ -219,7 +219,7 @@ class Projects{
             $this -> projectId = $row['projects_id'];
             $this -> projectTitle = $row['project_title'];
             $this -> projectAlerts = $row['project_alerts'];
-            $this -> projectDescription = substr(preg_replace('#(\\\r\\\n|\\\n)#', "\n", $row['project_description']),0,111)."...";
+            $this -> projectDescription = substr(preg_replace('#(\\\r\\\n|\\\n)#', "\n", $row['project_description']),0,105)."...";
             $this -> projectImage = $row['project_image'];
             
             

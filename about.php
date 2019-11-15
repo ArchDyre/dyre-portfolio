@@ -18,7 +18,7 @@
         
         <div class="row">
             
-            <div class="col-0 col-md-2"></div> <!-- /.col -->
+            <div class="col-0 col-md-0 col-lg-2"></div> <!-- /.col -->
             
             
             <div class="col-12 col-md bg-light p-0 rounded">
@@ -103,7 +103,7 @@
 
                         <div class="col-0 col-md-1 col-lg-3"></div> <!-- /.col -->
 
-                        <div class="col-12 col-md mb-4">
+                        <div class="col-12 col-md-12 col-lg mb-4">
 
                             <?php
                             
@@ -234,7 +234,7 @@
             </div> <!-- /.col -->
             
             
-            <div class="col-0 col-md-2"></div> <!-- /.col -->
+            <div class="col-0 col-md-0 col-lg-2"></div> <!-- /.col -->
             
         </div>
         <!-- /.bg_overlay_colour -->
